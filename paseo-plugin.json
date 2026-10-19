@@ -1,0 +1,7 @@
+{
+  "id": "office-hub",
+  "name": "Office Hub",
+  "description": "Trạng thái WC, lịch họp, mail chưa đọc và ghi nhớ từ Notepad++ ngay trên sidebar",
+  "media": ["assets/sidebar.png", "assets/settings-appearance.png", "assets/settings-outlook.png"],
+  "requirements": { "paseo": ">=0.11.0" }
+}

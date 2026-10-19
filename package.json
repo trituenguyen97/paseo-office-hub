@@ -1,0 +1,43 @@
+{
+  "name": "paseo-office-hub",
+  "version": "1.0.0",
+  "description": "Paseo plugin: toilet status, today's meetings, unread mail and Notepad++ notes in the sidebar",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trituenguyen97/paseo-office-hub.git"
+  },
+  "keywords": [
+    "paseo",
+    "paseo-plugin",
+    "outlook",
+    "calendar",
+    "notepad++"
+  ],
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "README.md",
+    "index.client.tsx",
+    "index.server.ts",
+    "client/",
+    "server/",
+    "shared/",
+    "assets/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"test/*.test.ts\"",
+    "check": "npm run typecheck && npm run test"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "*",
+    "zod": "^4.0.0",
+    "typescript": "^5.5.0",
+    "@types/react": "^18.3.0",
+    "@types/react-native": "*",
+    "@types/node": "^20.0.0"
+  }
+}
