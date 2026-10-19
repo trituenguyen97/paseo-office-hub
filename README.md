@@ -6,7 +6,7 @@ Plugin cho [Paseo](https://paseo.sh) gom bốn thứ hay xem trong ngày làm vi
   <img src="assets/sidebar.png" alt="Sidebar của Office Hub: WC-STATUS, lịch họp, mail chưa đọc và ghi nhớ" width="300">
 </p>
 
-> Ảnh trên đã làm mờ tiêu đề mail và ghi nhớ.
+> Ảnh trên đã làm mờ tên và địa điểm cuộc họp, tiêu đề mail và ghi nhớ.
 
 ## Tính năng
 
